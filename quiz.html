@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Style Quiz</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+
+  <!-- Quiz CSS -->
+  <link rel="stylesheet" href="css/quiz.css">
+</head>
+<body class="bg-dark text-white">
+
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Find Your Perfect Style</h2>
+
+    <div id="question-box" class="quiz-box">
+      <h4 id="question-text">Loading Question...</h4>
+      <div id="answer-buttons" class="mt-4"></div>
+    </div>
+
+    <div id="result-box" class="quiz-box text-center" style="display:none;">
+      <h4 id="result-text"></h4>
+      <a href="index.html" class="btn btn-warning mt-3">Back to Home</a>
+    </div>
+  </div>
+
+  <!-- jQuery FIRST -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Quiz JS ONLY -->
+  <script src="quiz.js"></script>
+
+</body>
+</html>
